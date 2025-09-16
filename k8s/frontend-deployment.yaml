@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: <DOCKERHUB_USERNAME>/frontend:latest
+        image: harika402/frontend:v1
         imagePullPolicy: Always
         ports:
         - containerPort: 80
